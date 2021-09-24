@@ -1,0 +1,25 @@
+{
+  "name": "Tabset",
+  "description": "Create a tabset to launch on command!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "tabGroups"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/tabset-16.png",
+      "32": "/images/tabset-32.png",
+      "48": "/images/tabset-48.png",
+      "128": "/images/tabset-128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/tabset-16.png",
+    "32": "/images/tabset-32.png",
+    "48": "/images/tabset-48.png",
+    "128": "/images/tabset-128.png"
+  }
+}
